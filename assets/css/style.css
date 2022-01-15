@@ -1,4 +1,107 @@
+.profile-container {
+    text-align: center;
+}
 
-.profile-container {text-align: center;}
-.profile-container h2{font-size: 22px;background-color: rgb(245, 248, 194); display: inline-block; padding: 15px 0; width: 250px; border-radius: 25px;}
-.profile-container ul{font-size: 20px; list-style-type:none; padding: 0;}
+.profile-container h2 {
+    font-size: 22px;
+    background-color: rgb(245, 248, 194);
+    display: inline-block;
+    padding: 15px 0;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.profile-container ul {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    s
+}
+
+.topnav {
+    padding: 50px 350px;
+}
+
+.topnav div {
+    display: inline;
+}
+
+.button {
+    display: inline;
+    width: 130px;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border-radius: 25px;
+}
+
+.editor-title-input--errored .editor-title-input__text {
+    border-bottom: 1px solid #f77;
+}
+
+.qna_list {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.qna-wrap {
+    padding: 20px 350px;
+}
+
+.qna_list {
+    border-top: 2px solid rgb(73, 118, 177);
+    border-bottom: 1px solid #ccc;
+}
+
+.qna_list_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.qna-list-head {
+    font-weight: bold;
+    background-color: rgb(233, 232, 232)
+}
+
+.qna-list-head,
+.qna_list_body .qna_list_item {
+    font-size: 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.qna-list-head div,
+.qna_list_body .qna_list_item div {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+
+}
+
+.qna_list .number {
+    width: 10%
+}
+
+.qna_list .title {
+    width: 55%
+}
+
+.qna_list .qna_list_body .title {
+    text-align: left;
+}
+
+.qna_list .writer {
+    width: 10%
+}
+
+.qna_list .date {
+    width: 15%
+}
+
+.qna_list .writer {
+    width: 10%
+}

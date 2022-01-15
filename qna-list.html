@@ -5,27 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>qna-list</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>게시판 목록</title>
 </head>
 
 <body>
-    <div style="text-align: right;">
-        <a href="qna-form.html"><button>문의하기</button></a>
+    <div class="container">
+        <div class="topnav">
+            <div><a href="index.html"><button><img src="/assets/icon/home.svg" alt=""></button></a></div>
+            <div><a href="qna-form.html"><button><img src="/assets/icon/write.svg" alt=""></button></a></div>
+        </div>
     </div>
-    <div style="text-align: center;">
-        <ul style="list-style-type:none;">
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li><hr>
-            <li>문의1</li>
-        </ul>
-    </div>
+    <div class="qna-wrap">
+        <div class="qna_list">
+            <div class="qna-list-head">
+                <div class="number">번호</div>
+                <div class="title">제목</div>
+                <div class="writer">글쓴이</div>
+                <div class="date">작성일</div>
+                <div class="view">조회</div>
+            </div>
+            <div class="qna_list_body">
+                <div class="qna_list_item">
+                    <div class="number">5</div>
+                    <div class="title"><a href="qna-detail.html">애니메이션 효과는 어느 태그에 주어야 할까요??</a></div>
+                    <div class="writer">김지예</div>
+                    <div class="date">2021-01-07</div>
+                    <div class="view">91</div>
+                </div>
+                <div class="qna_list_item">
+                    <div class="number">4</div>
+                    <div class="title"><a href="qna-detail.html">여기서 게시판 글쓰고 조회수 올라가고 하는걸 구현하려면 백엔드 기능을 사용하면 돼나요??</a></div>
+                    <div class="writer">박서현</div>
+                    <div class="date">2021-01-06</div>
+                    <div class="view">87</div>
+                </div>
+                <div class="qna_list_item">
+                    <div class="number">3</div>
+                    <div class="title"><a href="qna-detail.html">
+                            css에서 > 가 들어간다는건 무슨의미로 사용되는건가요 ?</a></div>
+                    <div class="writer">유태오</div>
+                    <div class="date">2021-01-05</div>
+                    <div class="view">46</div>
+                </div>
+                <div class="qna_list_item">
+                    <div class="number">2</div>
+                    <div class="title"><a href="qna-detail.html">이 프로그래밍은 진짜 게시판이 아니라 모양만 저런거죠?</a></div>
+                    <div class="writer">이온두</div>
+                    <div class="date">2021-01-04</div>
+                    <div class="view">65</div>
+                </div>
+                <div class="qna_list_item">
+                    <div class="number">1</div>
+                    <div class="title"><a href="qna-detail.html">진짜 게시판처럼 클릭하면 조회수를 늘리는거 가능가요?</a></div>
+                    <div class="writer">강태하</div>
+                    <div class="date">2021-01-03</div>
+                    <div class="view">82</div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

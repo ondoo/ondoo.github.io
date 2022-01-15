@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>qna-form</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>문의 작성란</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="topnav">
+            <div><a href="index.html"><button><img src="/assets/icon/home.svg" alt=""></button></a></div>
+            <div><a href="qna-form.html"><button><img src="/assets/icon/write.svg" alt=""></button></a></div>
+        </div>
+    </div>
+    <div class="write-wrap">
+        <div class="write_list">
+            <div class="write_title">
+                <dl>
+                    <dt>제목</dt>
+                    <dd><input type="text" placeholder="제목 입력"></dd>
+                </dl>
+            </div>
+            <div class="write_info">
+                <dl>
+                    <dt>글쓴이</dt>
+                    <dd><input type="text" placeholder="글쓴이 입력"></dd>
+                </dl>
+                <dl>
+                    <dt>비밀번호</dt>
+                    <dd><input type="text" placeholder="비밀번호 입력"></dd>
+                </dl>
+            </div>
+            <div class="write_content">
+                <textarea placeholder="내용입력"></textarea>
+            </div>
+
+        </div>
+        <div>
+            <div class="bt-wrap">
+                <a href="qna-list.html">등록</a>
+                <a href="qna-list.html">취소 </a>
+            </div>
+        </div>
 </body>
+
 </html>
